@@ -16,7 +16,7 @@ class Hewan
     // Method Suara
     public virtual string Suara()
     {
-        return "Hewan ini bersuara";
+        return "Hewan tersebut bersuara";
     }
 
     // Method InfoHewan
@@ -97,7 +97,7 @@ class Ular : Reptil
 
     public void Merayap()
     {
-        Console.WriteLine("Ular sedang merayap...");
+        Console.WriteLine("Ular sedang merayap di tanah");
     }
 }
 
